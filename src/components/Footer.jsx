@@ -7,10 +7,10 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-cta">
-                        <h2 className="footer-title">Let's build something real.</h2>
-                        <p className="footer-subtitle">We take on a limited number of partners to maintain quality. Secure your spot.</p>
-                        <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }} onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20apply%20for%20a%20spot', '_blank')}>
-                            Apply Now
+                        <h2 className="footer-title">Ready to build a content system that actually converts?</h2>
+                        <p className="footer-subtitle">Book a strategy audit to identify your content gaps and see exactly how we can build your inbound pipeline.</p>
+                        <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }} onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20book%20a%20strategy%20audit', '_blank')}>
+                            Book a Strategy Audit
                         </Button>
                     </div>
 
@@ -20,7 +20,6 @@ const Footer = () => {
                             <a href="#about">Why Us</a>
                             <a href="#services">Services</a>
                             <a href="#how-it-works">Process</a>
-                            <a href="#offers">Offers</a>
                         </div>
                         <div className="link-column">
                             <h4>Socials</h4>
@@ -31,6 +30,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-bottom">
+                    <p style={{ marginBottom: '10px', opacity: 0.8 }}>BrosContent is not an agency. We are a specialized growth partner for founders who value pipeline over popularity.</p>
                     <p>&copy; {new Date().getFullYear()} BrosContent. All rights reserved.</p>
                 </div>
             </div>

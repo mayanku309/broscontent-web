@@ -3,23 +3,18 @@ import './HowItWorks.css'
 const steps = [
     {
         number: '01',
-        title: 'The Audit (Real Talk)',
-        description: 'We look at what you’re doing and tell you honestly what’s working and what’s wasting money. No sugar-coating.'
+        title: 'Strategy & Positioning',
+        description: 'We identify your "money angles" and audit your current gaps to build a plan that converts.'
     },
     {
         number: '02',
-        title: 'The Build',
-        description: 'We design your system, workflows, and visual identity using frameworks that have actually worked for us.'
+        title: 'Content System Design',
+        description: 'We deploy our proven frameworks to create content that filters for intent, not just attention.'
     },
     {
         number: '03',
-        title: 'The Sprint',
-        description: 'We execute, publish, and test. We iterate based on market feedback to find your winning message fast.'
-    },
-    {
-        number: '04',
-        title: 'The Scale',
-        description: 'Once we have data on what drives revenue, we double down to maximize your ROI.'
+        title: 'Distribution & Pipeline',
+        description: 'We publish, iterate, and optimize for inbound conversations. You focus on closing; we focus on filling the calendar.'
     }
 ]
 
@@ -28,8 +23,8 @@ const HowItWorks = () => {
         <section id="how-it-works" className="how-it-works">
             <div className="container">
                 <div className="section-header">
-                    <h2 className="section-title">Simple. Transparent. Effective.</h2>
-                    <p className="section-subtitle">Our process to build your content machine.</p>
+                    <h2 className="section-title">A System, Not A Guess.</h2>
+                    <p className="section-subtitle">Predictable, professional, and built for scale.</p>
                 </div>
 
                 <div className="steps-grid">

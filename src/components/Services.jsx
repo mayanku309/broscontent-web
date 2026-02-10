@@ -4,17 +4,17 @@ import Button from './Button'
 const servicesData = [
     {
         title: 'Founder Authority System',
-        description: 'Stop being the "best kept secret." We handle strategic positioning, LinkedIn & X ghostwriting, and profile optimization to turn you into a recognized authority.',
+        description: 'Demand Creation. We clarify your positioning and turn your expertise into high-leverage content that builds trust at scale. Stop chasing trends, start leading.',
         icon: '🎯'
     },
     {
-        title: 'The Inbound Lead Engine',
-        description: 'A predictable calendar of calls. We produce short-form video, set up lead magnets, and run non-spammy DM qualification frameworks.',
+        title: 'Inbound Lead Engine',
+        description: 'Qualified Pipeline. We build the systems that turn views into conversations. Content engineered to filter for qualified buyers, not just attention.',
         icon: '🚀'
     },
     {
         title: 'Total Content Operations',
-        description: 'Full-stack strategy (Video, Text, Audio) and multi-platform distribution. currently WAITLISTED to ensure quality for existing partners.',
+        description: 'End-to-End Execution. Strategy, production, editing, and distribution handled by a partner team. Currently WAITLISTED to maintain quality.',
         icon: '💎'
     }
 ]
@@ -24,8 +24,8 @@ const Services = () => {
         <section id="services" className="services">
             <div className="container">
                 <div className="services-header">
-                    <h2 className="section-title">We Don't Sell "Posts." We Sell Pipeline.</h2>
-                    <p className="section-subtitle">Growth mechanisms designed for ROI.</p>
+                    <h2 className="section-title">Outcomes, Not Features.</h2>
+                    <p className="section-subtitle">We don't sell deliverables. We sell revenue engines.</p>
                 </div>
 
                 <div className="services-grid">

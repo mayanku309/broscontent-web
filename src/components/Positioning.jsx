@@ -4,17 +4,20 @@ const Positioning = () => {
     return (
         <section className="positioning">
             <div className="container">
+                <div className="section-header" style={{ marginBottom: '40px' }}>
+                    <h2 className="section-title">Why The Old Way Is Broken.</h2>
+                </div>
                 <div className="positioning-content">
                     <div className="positioning-block problem">
                         <h3 className="section-title-small">The Reality</h3>
                         <p>
-                            You don't need another generic agency promising "millions of views." You need a partner who understands that <strong>views don't pay the bills—clients do.</strong>
+                            You post randomly. You hire generic agencies who chase "viral" views that never convert. You burn cash on ads that attract low-quality leads. <strong>You have attention, but no pipeline.</strong>
                         </p>
                     </div>
                     <div className="positioning-block solution">
                         <h3 className="section-title-small highlight">Our Promise</h3>
                         <p>
-                            BrosContent isn't a massive corporate machine. We are a focused team of builders. We work directly with you to build a content engine that attracts your ideal clients. We treat your business like it's our own because, at this stage, your win is literally our reputation.
+                            We don't just "post content." We build a revenue engine. Small team, direct founder collaboration, and systems designed for one thing: <strong>getting you booked calls with qualified buyers.</strong>
                         </p>
                     </div>
                 </div>

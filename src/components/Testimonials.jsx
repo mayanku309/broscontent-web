@@ -29,9 +29,9 @@ const Testimonials = () => {
         <section id="testimonials" className="testimonials">
             <div className="container">
                 <div className="section-header">
-                    <h2 className="section-title">Built With Real Founders</h2>
+                    <h2 className="section-title">Built With Real Founders.</h2>
                     <p className="section-subtitle" style={{ maxWidth: '800px', margin: '0 auto 40px', fontSize: '1.2rem', color: 'var(--gray-text)' }}>
-                        "We believe in earning trust, not buying it. These are real results from our early partners and test users who helped refine our systems."
+                        We refined our systems with real businesses before opening the doors.
                     </p>
                 </div>
                 <div className="testimonials-grid">
