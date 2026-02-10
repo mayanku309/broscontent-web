@@ -9,9 +9,14 @@ const Footer = () => {
                     <div className="footer-cta">
                         <h2 className="footer-title">Content doesn't have to be a gamble.</h2>
                         <p className="footer-subtitle">Stop throwing posts at the wall. Let's build a predictable revenue engine that compounds every week. You're not too early — you just need a system.</p>
-                        <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }} onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20book%20a%20strategy%20audit', '_blank')}>
-                            Start Your Engine
-                        </Button>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px', marginTop: '32px' }}>
+                            <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }} onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20book%20a%20strategy%20audit', '_blank')}>
+                                Book a Strategy Audit
+                            </Button>
+                            <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.6)', margin: 0 }}>
+                                Clear steps. Honest feedback. No pitch.
+                            </p>
+                        </div>
                     </div>
 
                     <div className="footer-links">

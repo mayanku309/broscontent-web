@@ -39,10 +39,13 @@ const UseCases = () => {
                     <p style={{ color: 'var(--gray-text)', maxWidth: '600px', margin: '0 auto', fontSize: '1rem' }}>
                         We are not for influencers chasing fame, low-ticket dropshippers, or anyone looking for "viral hacks." We build systems for revenue.
                     </p>
-                    <div style={{ marginTop: '40px' }}>
+                    <div style={{ marginTop: '40px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px' }}>
                         <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }} onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20book%20a%20strategy%20audit', '_blank')}>
-                            Book Your Strategy Audit
+                            Book a Strategy Audit
                         </Button>
+                        <p style={{ fontSize: '0.9rem', color: 'var(--gray-text)', margin: 0, fontStyle: 'italic' }}>
+                            Limited spots per month.
+                        </p>
                     </div>
                 </div>
             </div>

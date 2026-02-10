@@ -108,9 +108,14 @@ const Services = () => {
                     <div className="services-cta-box">
                         <h3>Book a Strategy Audit</h3>
                         <p>We’ll review your current content, identify leaks, and outline a clear path forward.</p>
-                        <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.2rem', width: '100%', maxWidth: '300px' }} onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20book%20a%20strategy%20audit', '_blank')}>
-                            Book a Strategy Audit
-                        </Button>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px' }}>
+                            <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.2rem', width: '100%', maxWidth: '300px' }} onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20book%20a%20strategy%20audit', '_blank')}>
+                                Book a Strategy Audit
+                            </Button>
+                            <p style={{ fontSize: '0.9rem', color: 'var(--gray-text)', margin: 0, fontStyle: 'italic' }}>
+                                100% free. No obligation to hire us.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
