@@ -1,0 +1,40 @@
+.about {
+    background-color: var(--white);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+}
+
+.about-text {
+    font-size: 1.25rem;
+    color: var(--gray-text);
+    line-height: 1.8;
+    margin-bottom: var(--space-md);
+}
+
+.founder-signature {
+    margin-top: var(--space-lg);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding-top: var(--space-md);
+    display: inline-block;
+    padding-left: var(--space-lg);
+    padding-right: var(--space-lg);
+}
+
+.founder-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 4px;
+}
+
+.founder-title {
+    font-size: 0.95rem;
+    color: var(--yellow);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}

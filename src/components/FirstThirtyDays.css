@@ -1,0 +1,47 @@
+.first-30-days {
+    background-color: var(--white);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.first-30-days .section-title {
+    margin-bottom: var(--space-lg);
+}
+
+.deliverables-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--space-md);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.deliverable-card {
+    background: var(--light-yellow);
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    text-align: left;
+    border: 1px solid rgba(245, 179, 1, 0.2);
+}
+
+.check-icon {
+    background: var(--yellow);
+    color: var(--black);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.deliverable-text {
+    margin: 0;
+    font-weight: 600;
+    color: var(--black);
+}

@@ -1,0 +1,43 @@
+.how-it-works {
+    background-color: var(--white);
+    padding: 100px 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: var(--space-xl);
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-lg);
+    position: relative;
+}
+
+.step-card {
+    text-align: left;
+    padding: var(--space-md);
+}
+
+.step-number {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--light-yellow);
+    /* Subtle backing number */
+    line-height: 1;
+    margin-bottom: var(--space-xs);
+    -webkit-text-stroke: 1px var(--yellow);
+}
+
+.step-title {
+    font-size: 1.25rem;
+    margin-bottom: var(--space-sm);
+    color: var(--black);
+}
+
+.step-description {
+    font-size: 0.95rem;
+    color: var(--gray-text);
+    line-height: 1.6;
+}

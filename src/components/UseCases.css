@@ -1,0 +1,35 @@
+.use-cases {
+    background-color: var(--light-yellow);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.use-cases .section-title {
+    margin-bottom: var(--space-lg);
+}
+
+.use-cases-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-md);
+}
+
+.use-case-card {
+    background: var(--white);
+    padding: var(--space-md);
+    border-radius: var(--radius-sm);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: var(--shadow-sm);
+    text-align: left;
+}
+
+.use-case-title {
+    color: var(--black);
+    margin-bottom: var(--space-xs);
+    font-size: 1.1rem;
+}
+
+.use-case-desc {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}

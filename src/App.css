@@ -1,0 +1,26 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--space-md);
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--black);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+p {
+    color: var(--gray-text);
+    margin-bottom: 1rem;
+}
+
+section {
+    padding: 80px 0;
+}
