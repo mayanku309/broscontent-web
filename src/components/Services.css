@@ -121,10 +121,15 @@
 
 .service-outcome {
     margin-top: auto;
-    background: var(--black);
+    background: #FFF8E6;
+    /* Light cream background */
     padding: 16px;
-    border-radius: 8px;
-    color: white;
+    border-radius: 12px;
+    color: #1A1A1A;
+    /* Dark neutral text */
+    border: 1px solid #F5B301;
+    /* Subtle yellow border */
+    box-shadow: none;
 }
 
 .service-outcome h4 {
@@ -133,6 +138,7 @@
     letter-spacing: 0.1em;
     margin-bottom: 4px;
     opacity: 0.7;
+    color: #1A1A1A;
 }
 
 .service-outcome p {
@@ -140,6 +146,7 @@
     font-weight: 500;
     line-height: 1.4;
     margin: 0;
+    color: #1A1A1A;
 }
 
 /* Bottom CTA Section */
