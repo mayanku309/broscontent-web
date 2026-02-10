@@ -2,7 +2,14 @@ import './Testimonials.css'
 
 const testimonials = [
     {
-        quote: "BrosContent helped us automate our event bookings. We used to miss inquiries, but now our WhatsApp system handles everything instantly.",
+        quote: "Working with BrosContent improved my DMs from random to qualified leads within 30 days. The system runs itself now.",
+        author: "Aman",
+        role: "Creator (LinkedIn focus)",
+        image: "/aman.jpg", // Placeholder or generic avatar if real one not available yet
+        link: "" // Optional if no link provided
+    },
+    {
+        quote: "We used to miss inquiries, but now our WhatsApp system handles everything instantly. It's automated revenue.",
         author: "@sharmas.djsound",
         role: "Event & Sound Business",
         image: "/sharma.jpg",
@@ -29,7 +36,7 @@ const Testimonials = () => {
         <section id="testimonials" className="testimonials">
             <div className="container">
                 <div className="section-header">
-                    <h2 className="section-title">Built With Real Founders.</h2>
+                    <h2 className="section-title">Early Collaborators / Field-Tested.</h2>
                     <p className="section-subtitle" style={{ maxWidth: '800px', margin: '0 auto 40px', fontSize: '1.2rem', color: 'var(--gray-text)' }}>
                         We refined our systems with real businesses before opening the doors.
                     </p>

@@ -10,7 +10,7 @@ const Hero = () => {
                     Field-tested with real creators before public rollout
                 </div>
                 <h1 className="hero-title">
-                    We Turn Expertise Into Consistent Inbound Revenue — Without Ads.
+                    We turn expertise into consistent inbound revenue — without ads.
                 </h1>
                 <p className="hero-subtitle">
                     We build structured content systems that attract qualified buyers, start sales conversations, and turn attention into real pipeline — not vanity metrics.
