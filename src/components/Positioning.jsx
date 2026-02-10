@@ -6,15 +6,15 @@ const Positioning = () => {
             <div className="container">
                 <div className="positioning-content">
                     <div className="positioning-block problem">
-                        <h3 className="section-title-small">The Problem</h3>
+                        <h3 className="section-title-small">The Reality</h3>
                         <p>
-                            Most agencies sell you "engagement." They promise viral reach, millions of views, and inflated follower counts. But you can't pay rent with likes.
+                            You don't need another generic agency promising "millions of views." You need a partner who understands that <strong>views don't pay the bills—clients do.</strong>
                         </p>
                     </div>
                     <div className="positioning-block solution">
-                        <h3 className="section-title-small highlight">The BrosContent Difference</h3>
+                        <h3 className="section-title-small highlight">Our Promise</h3>
                         <p>
-                            We are a revenue-first growth studio. We don't just "do social media." We engineer <strong>inbound conversion systems</strong>. We combine elite creative strategy with rigorous sales psychology to ensure every piece of content you put out works to fill your pipeline. If it doesn't lead to a conversation, it doesn't matter.
+                            BrosContent isn't a massive corporate machine. We are a focused team of builders. We work directly with you to build a content engine that attracts your ideal clients. We treat your business like it's our own because, at this stage, your win is literally our reputation.
                         </p>
                     </div>
                 </div>

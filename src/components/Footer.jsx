@@ -7,10 +7,10 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-cta">
-                        <h2 className="footer-title">Ready to stop guessing and start growing?</h2>
-                        <p className="footer-subtitle">We only work with 5 new partners per month to ensure maximum attention. Secure your spot now.</p>
+                        <h2 className="footer-title">Let's build something real.</h2>
+                        <p className="footer-subtitle">We take on a limited number of partners to maintain quality. Secure your spot.</p>
                         <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }} onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20apply%20for%20a%20spot', '_blank')}>
-                            Apply for a Spot
+                            Apply Now
                         </Button>
                     </div>
 

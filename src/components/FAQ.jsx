@@ -3,24 +3,24 @@ import './FAQ.css'
 
 const faqData = [
     {
-        question: "How fast will I see results?",
-        answer: "We focus on quick wins. While brand building is a long-term game, our conversion systems are designed to start generating qualified conversations within the first 30-45 days."
+        question: "Are you a new agency?",
+        answer: "Yes, and that is your biggest advantage. We aren't bloated with overhead or distracted by hundreds of clients. You get premium attention, faster execution, and a team that is hungry to prove itself."
     },
     {
-        question: "Is this strictly done-for-you?",
-        answer: "Yes. We handle the heavy lifting—strategy, scripting, editing, and publishing. Your involvement is focused on high-level approval and, where needed, recording raw video (which we guide you through)."
+        question: "How quickly will I see results?",
+        answer: "We don't promise overnight magic. Content is an asset that builds. However, our systems are designed to start generating conversations in the first 30-45 days."
+    },
+    {
+        question: "What if it doesn't work?",
+        answer: "We work in 30-day sprints. We don't lock you into 12-month handcuffs. If we don't deliver value, you can leave. It's that simple. We fight to keep you every single month."
     },
     {
         question: "Who is this NOT for?",
-        answer: "This is NOT for people looking for a \"get rich quick\" scheme or those unwilling to invest in quality. If you have a weak offer or no proven product-market fit, we aren't the right fix. We amplify what works."
+        answer: "If you want millions of fake views, cheap bot followers, or are looking for a 'get rich quick' scheme, we are not for you. We work with serious builders."
     },
     {
         question: "What is the investment?",
-        answer: "We are a premium strategic partner, not a budget freelance marketplace. Our packages are designed for businesses generating revenue who are ready to scale. Book a call to discuss the best tier for your goals."
-    },
-    {
-        question: "Do you offer guarantees?",
-        answer: "We guarantee our work quality and the implementation of our systems. While we cannot legally promise specific revenue numbers (markets vary), we work on a performance-basis for select long-term partners after the initial term."
+        answer: "We are a premium specialized partner. Our packages are designed for businesses generating revenue who are ready to scale. Book a call to discuss the best tier for your goals."
     }
 ]
 

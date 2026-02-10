@@ -29,9 +29,9 @@ const Testimonials = () => {
         <section id="testimonials" className="testimonials">
             <div className="container">
                 <div className="section-header">
-                    <h2 className="section-title">Built & Battle-Tested</h2>
+                    <h2 className="section-title">Built With Real Founders</h2>
                     <p className="section-subtitle" style={{ maxWidth: '800px', margin: '0 auto 40px', fontSize: '1.2rem', color: 'var(--gray-text)' }}>
-                        "We didn't just learn this in a course. We built BrosContent using these exact systems. Every strategy we deploy for you has been tested on our own brand and refined with real capital."
+                        "We believe in earning trust, not buying it. These are real results from our early partners and test users who helped refine our systems."
                     </p>
                 </div>
                 <div className="testimonials-grid">

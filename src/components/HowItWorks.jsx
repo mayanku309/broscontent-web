@@ -3,23 +3,23 @@ import './HowItWorks.css'
 const steps = [
     {
         number: '01',
-        title: 'Deep Dive & Strategy',
-        description: 'We audit your offer and audience to identify the "money angles" that drive the highest conversions.'
+        title: 'The Audit (Real Talk)',
+        description: 'We look at what you’re doing and tell you honestly what’s working and what’s wasting money. No sugar-coating.'
     },
     {
         number: '02',
-        title: 'System Deployment',
-        description: 'We build your content engine, visual identity, and rapid-testing protocols to validate messaging immediately.'
+        title: 'The Build',
+        description: 'We design your system, workflows, and visual identity using frameworks that have actually worked for us.'
     },
     {
         number: '03',
-        title: 'Authority & Traction',
-        description: 'We launch high-impact content targeting your ICP to build immediate trust and separate you from the noise.'
+        title: 'The Sprint',
+        description: 'We execute, publish, and test. We iterate based on market feedback to find your winning message fast.'
     },
     {
         number: '04',
-        title: 'Scale & Convert',
-        description: 'We analyze data, double down on winning formats, and optimize backend funnels to turn attention into booked appointments.'
+        title: 'The Scale',
+        description: 'Once we have data on what drives revenue, we double down to maximize your ROI.'
     }
 ]
 
@@ -28,8 +28,8 @@ const HowItWorks = () => {
         <section id="how-it-works" className="how-it-works">
             <div className="container">
                 <div className="section-header">
-                    <h2 className="section-title">From "Unknown" to "Unignorable"</h2>
-                    <p className="section-subtitle">A predictable process to build your content machine.</p>
+                    <h2 className="section-title">Simple. Transparent. Effective.</h2>
+                    <p className="section-subtitle">Our process to build your content machine.</p>
                 </div>
 
                 <div className="steps-grid">

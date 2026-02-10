@@ -3,18 +3,18 @@ import Button from './Button'
 
 const servicesData = [
     {
-        title: 'Founder Authority Engine',
-        description: 'Become the "Category King" in your niche. We handle strategy, LinkedIn & X ghostwriting, and profile optimization to attract high-ticket clients who trust you before the call.',
+        title: 'Founder Authority System',
+        description: 'Stop being the "best kept secret." We handle strategic positioning, LinkedIn & X ghostwriting, and profile optimization to turn you into a recognized authority.',
         icon: '🎯'
     },
     {
-        title: 'Inbound Lead Ecosystem',
-        description: 'A predictable stream of qualified leads. We produce short-form video, set up lead magnets, and run DM qualification scripts to fill your calendar.',
+        title: 'The Inbound Lead Engine',
+        description: 'A predictable calendar of calls. We produce short-form video, set up lead magnets, and run non-spammy DM qualification frameworks.',
         icon: '🚀'
     },
     {
-        title: 'Total Brand Transformation',
-        description: 'Dominate your market with "media company" level output. Full-stack content strategy, multi-platform distribution, and community building without hiring an internal team.',
+        title: 'Total Content Operations',
+        description: 'Full-stack strategy (Video, Text, Audio) and multi-platform distribution. currently WAITLISTED to ensure quality for existing partners.',
         icon: '💎'
     }
 ]
@@ -24,8 +24,8 @@ const Services = () => {
         <section id="services" className="services">
             <div className="container">
                 <div className="services-header">
-                    <h2 className="section-title">Growth Mechanisms Designed for ROI</h2>
-                    <p className="section-subtitle">We don't sell deliverables. We sell outcomes.</p>
+                    <h2 className="section-title">We Don't Sell "Posts." We Sell Pipeline.</h2>
+                    <p className="section-subtitle">Growth mechanisms designed for ROI.</p>
                 </div>
 
                 <div className="services-grid">

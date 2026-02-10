@@ -8,13 +8,13 @@ const About = () => {
                 <div className="about-content">
                     <div className="problem-statement" style={{ marginBottom: '40px' }}>
                         <p className="about-text" style={{ fontWeight: '600', fontSize: '1.4rem', marginBottom: '20px' }}>
-                            Your Partner in Profit.
+                            Why BrosContent?
                         </p>
                         <p className="about-text">
-                            BrosContent exists because we were tired of seeing brilliant founders get ignored. We watched incredible businesses fail to grow because their "marketing experts" were obsessed with vanity metrics. They celebrated viral videos that brought in zero dollars. That's broken.
+                            I started BrosContent because I was tired of seeing founders get ripped off by "experts" who had never sold a thing in their life. I believe that <strong>marketing should make money. Period.</strong>
                         </p>
                         <p className="about-text" style={{ marginTop: '20px' }}>
-                            We believe content is a financial asset. It should perform. It should yield returns. We don't do 'trends' unless they pay. We don't do 'cute'. We do <strong>conversion</strong>. We are here to make you the undisputed authority in your space and put money in your bank account.
+                            We aren't a giant agency with 500 employees. And that's your advantage. When you work with us, you get <em>obsessive</em> attention. You get speed. You get honesty. We are building our reputation on <strong>your results</strong>, which means we can't afford to fail you.
                         </p>
                     </div>
 
