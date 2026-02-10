@@ -90,3 +90,11 @@
         gap: var(--space-sm);
     }
 }
+
+.hero-micro-trust {
+    margin-top: 24px;
+    font-size: 0.9rem;
+    color: var(--gray-text);
+    font-weight: 500;
+    opacity: 0.8;
+}
