@@ -7,10 +7,10 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-cta">
-                        <h2 className="footer-title">Ready to build a content system that actually converts?</h2>
-                        <p className="footer-subtitle">Book a strategy audit to identify your content gaps and see exactly how we can build your inbound pipeline.</p>
+                        <h2 className="footer-title">Content doesn't have to be a gamble.</h2>
+                        <p className="footer-subtitle">Stop throwing posts at the wall. Let's build a predictable revenue engine that compounds every week. You're not too early — you just need a system.</p>
                         <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }} onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20book%20a%20strategy%20audit', '_blank')}>
-                            Book a Strategy Audit
+                            Start Your Engine
                         </Button>
                     </div>
 

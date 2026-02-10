@@ -1,4 +1,5 @@
 import './UseCases.css'
+import Button from './Button'
 
 const whoItsFor = [
     {
@@ -23,7 +24,7 @@ const UseCases = () => {
     return (
         <section id="use-cases" className="use-cases">
             <div className="container">
-                <h2 className="section-title">Who It's For</h2>
+                <h2 className="section-title">Is This For You?</h2>
                 <div className="use-cases-grid">
                     {whoItsFor.map((item, index) => (
                         <div key={index} className="use-case-card">
@@ -33,11 +34,16 @@ const UseCases = () => {
                     ))}
                 </div>
 
-                <div style={{ marginTop: '60px', textAlign: 'center', opacity: 0.8 }}>
-                    <h4 style={{ marginBottom: '20px', color: 'var(--black)' }}>Who It's NOT For</h4>
-                    <p style={{ color: 'var(--gray-text)', maxWidth: '600px', margin: '0 auto' }}>
-                        Influencers chasing fame, low-ticket creators, or brands looking for viral trends over revenue.
+                <div style={{ marginTop: '60px', textAlign: 'center', opacity: 0.9 }}>
+                    <h4 style={{ marginBottom: '20px', color: 'var(--black)', fontSize: '1.2rem' }}>Who It's NOT For</h4>
+                    <p style={{ color: 'var(--gray-text)', maxWidth: '600px', margin: '0 auto', fontSize: '1rem' }}>
+                        We are not for influencers chasing fame, low-ticket dropshippers, or anyone looking for "viral hacks." We build systems for revenue.
                     </p>
+                    <div style={{ marginTop: '40px' }}>
+                        <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }} onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20book%20a%20strategy%20audit', '_blank')}>
+                            Book Your Strategy Audit
+                        </Button>
+                    </div>
                 </div>
             </div>
         </section>

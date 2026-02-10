@@ -39,7 +39,7 @@ const servicesData = [
         icon: '🚀'
     },
     {
-        title: 'Content Operations (End-to-End)',
+        title: 'Total Content Operations',
         target: 'For teams who want execution handled — properly.',
         description: 'This is for brands who don’t want to manage creators, editors, or posting workflows. We handle the entire content operation with a conversion-first lens.',
         solves: [

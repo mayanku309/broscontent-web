@@ -85,7 +85,7 @@ const Testimonials = () => {
                         <p style={{ fontSize: '0.9rem', color: 'var(--gray-text)' }}>Personal brand authority</p>
                     </div>
                 </div>
-                <p className="testimonial-disclaimer">Results may vary based on business processes and usage.</p>
+                <p className="testimonial-disclaimer">These results come from founders who actually implemented the system. Execution matters.</p>
             </div>
         </section>
     )

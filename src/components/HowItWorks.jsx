@@ -3,18 +3,18 @@ import './HowItWorks.css'
 const steps = [
     {
         number: '01',
-        title: 'Strategy & Positioning',
-        description: 'We identify your "money angles" and audit your current gaps to build a plan that converts.'
+        title: 'Strategy & "Money Angles"',
+        description: 'We audit your offer and identify the specific angles that will attract buyers, not just viewers.'
     },
     {
         number: '02',
-        title: 'Content System Design',
-        description: 'We deploy our proven frameworks to create content that filters for intent, not just attention.'
+        title: 'The Content Engine',
+        description: 'We build the systems to produce high-trust content consistently, without you being on the content hamster wheel.'
     },
     {
         number: '03',
-        title: 'Distribution & Pipeline',
-        description: 'We publish, iterate, and optimize for inbound conversations. You focus on closing; we focus on filling the calendar.'
+        title: 'Pipeline & Conversion',
+        description: 'We distribute focused content that drives traffic to your audit or demo booking page. Attention becomes revenue.'
     }
 ]
 
