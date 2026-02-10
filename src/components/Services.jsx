@@ -5,17 +5,16 @@ const servicesData = [
     {
         title: 'Founder Authority System',
         target: 'For founders & creators who want buyers to trust them before the first call.',
-        description: 'We position you as a credible authority in your space so the right audience already understands your value before they ever DM or book a call.',
+        description: 'We position you clearly in your market so the right audience understands why you’re worth paying before they ever DM or book a call.',
         solves: [
-            'You’re posting but people don’t “get” what you do',
-            'Leads are low-quality or price-sensitive',
+            'People see your content but don’t "get" what you actually do',
+            'Leads feel cold, low-intent, or price-sensitive',
             'You’re competing instead of being chosen'
         ],
         included: [
-            'Clear positioning & messaging framework',
-            'Content angles that signal authority (not noise)',
-            'Short-form content direction built for trust',
-            'Buyer psychology mapping'
+            'Sharpens your positioning and message',
+            'Aligns your content with buyer psychology',
+            'Signals authority without hype or flexing'
         ],
         outcome: 'Stronger perception, warmer inbound conversations, and less convincing on calls.',
         icon: '🎯'
@@ -25,36 +24,34 @@ const servicesData = [
         target: 'For businesses that want consistent conversations — not random spikes.',
         description: 'We design a structured content engine that attracts qualified buyers and turns attention into inbound leads over time.',
         solves: [
-            'Views without DMs',
-            'Inconsistent inbound leads',
-            'Content that doesn’t convert'
+            'You’re getting views but no DMs',
+            'Inbound leads are inconsistent',
+            'Content feels busy but not effective'
         ],
         included: [
-            'Short-form content system (topics, hooks, formats)',
-            'Conversion-focused content strategy',
-            'CTA & funnel logic (content → conversation)',
-            'Ongoing optimization based on response'
+            'Builds content around demand, not trends',
+            'Connects content → CTA → conversation',
+            'Optimizes for responses, not likes'
         ],
         outcome: 'Predictable inbound conversations with people who already want what you offer.',
         icon: '🚀'
     },
     {
-        title: 'Total Content Operations',
+        title: 'Content Operations (End-to-End)',
         target: 'For teams who want execution handled — properly.',
-        description: 'This is for brands who don’t want to manage creators, editors, or posting workflows. We handle the entire content operation with a conversion-first lens.',
+        description: 'We run your entire content operation with a conversion-first lens, so you’re not managing freelancers, workflows, or posting chaos.',
         solves: [
-            'Time drain from managing content',
-            'Inconsistent execution',
-            'Multiple freelancers, no system'
+            'Content management drains your time',
+            'Execution is inconsistent',
+            'Multiple people are involved, but nothing compounds'
         ],
         included: [
-            'End-to-end content execution',
-            'Weekly content planning & direction',
-            'Publishing rhythm built for momentum',
-            'Continuous iteration for better conversion'
+            'Handles planning, execution, and iteration',
+            'Maintains a consistent publishing rhythm',
+            'Improves performance based on responses, not guesses'
         ],
         note: 'Note: Selective onboarding. We work with a limited number of partners to maintain quality.',
-        outcome: 'A reliable content operation that runs without chaos and feeds your pipeline consistently.',
+        outcome: 'A reliable content operation that feeds your pipeline without constant oversight.',
         icon: '💎'
     }
 ]
@@ -65,7 +62,9 @@ const Services = () => {
             <div className="container">
                 <div className="services-header">
                     <h2 className="section-title">Services built for pipeline — not posting.</h2>
-                    <p className="section-subtitle">Each offering is designed to turn your expertise into consistent inbound demand. No ads. No vanity metrics. Just systems that compound.</p>
+                    <p className="section-subtitle">
+                        Each system is designed to turn your expertise into consistent inbound demand. No ads. No vanity metrics. Just content that compounds.
+                    </p>
                 </div>
 
                 <div className="services-grid">
@@ -77,16 +76,20 @@ const Services = () => {
                             <p className="service-description">{service.description}</p>
 
                             <div className="service-section">
-                                <h4>What this solves</h4>
+                                <h4>This is for you if:</h4>
                                 <ul>
-                                    {service.solves.map((item, i) => <li key={i}>{item}</li>)}
+                                    {service.solves.map((item, i) => (
+                                        <li key={i}>{item}</li>
+                                    ))}
                                 </ul>
                             </div>
 
                             <div className="service-section">
-                                <h4>What's included</h4>
+                                <h4>What this system does:</h4>
                                 <ul>
-                                    {service.included.map((item, i) => <li key={i}>{item}</li>)}
+                                    {service.included.map((item, i) => (
+                                        <li key={i}>{item}</li>
+                                    ))}
                                 </ul>
                             </div>
 
@@ -101,11 +104,11 @@ const Services = () => {
                 </div>
 
                 <div className="services-cta-container">
-                    <p className="services-transition">Not sure which system fits your stage? We’ll map it in a short audit.</p>
+                    <p className="services-transition">Not sure which system fits your stage? We’ll map it out in a short audit.</p>
                     <div className="services-cta-box">
                         <h3>Book a Strategy Audit</h3>
                         <p>We’ll review your current content, identify leaks, and outline a clear path forward.</p>
-                        <Button variant="primary" onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20book%20a%20strategy%20audit', '_blank')}>
+                        <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.2rem', width: '100%', maxWidth: '300px' }} onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20book%20a%20strategy%20audit', '_blank')}>
                             Book a Strategy Audit
                         </Button>
                     </div>
