@@ -7,29 +7,18 @@ const About = () => {
                 <h2 className="section-title">Why Founders Trust Us</h2>
                 <div className="about-content">
                     <div className="problem-statement" style={{ marginBottom: '40px' }}>
-                        <p className="about-text" style={{ fontWeight: '600' }}>
-                            Most founders are told to "just post content," but they never get leads.
+                        <p className="about-text" style={{ fontWeight: '600', fontSize: '1.4rem', marginBottom: '20px' }}>
+                            Your Partner in Profit.
                         </p>
                         <p className="about-text">
-                            Agencies often focus on vanity metrics like visibility and likes, ignoring what matters most: revenue. Founders want inbound demos, not just followers. BrosContent bridges this gap by building systems that actually convert.
+                            BrosContent exists because we were tired of seeing brilliant founders get ignored. We watched incredible businesses fail to grow because their "marketing experts" were obsessed with vanity metrics. They celebrated viral videos that brought in zero dollars. That's broken.
+                        </p>
+                        <p className="about-text" style={{ marginTop: '20px' }}>
+                            We believe content is a financial asset. It should perform. It should yield returns. We don't do 'trends' unless they pay. We don't do 'cute'. We do <strong>conversion</strong>. We are here to make you the undisputed authority in your space and put money in your bank account.
                         </p>
                     </div>
 
-                    <div className="differentiation-pillars" style={{ textAlign: 'left', marginTop: '20px' }}>
-                        <h3 style={{ marginBottom: '20px', textAlign: 'center' }}>Our 3-Pillar Approach</h3>
-                        <div style={{ marginBottom: '20px' }}>
-                            <h4 style={{ color: 'var(--black)', marginBottom: '5px' }}>1. Founder-Led Authority</h4>
-                            <p style={{ color: 'var(--gray-text)' }}>We position you as the expert using strong narratives and platform-native content that resonates.</p>
-                        </div>
-                        <div style={{ marginBottom: '20px' }}>
-                            <h4 style={{ color: 'var(--black)', marginBottom: '5px' }}>2. Done-For-You Content Engine</h4>
-                            <p style={{ color: 'var(--gray-text)' }}>Ghostwriting, visual design, and publishing — we handle the heavy lifting so you don't have to be a full-time creator.</p>
-                        </div>
-                        <div style={{ marginBottom: '20px' }}>
-                            <h4 style={{ color: 'var(--black)', marginBottom: '5px' }}>3. Content → Demo Conversion System</h4>
-                            <p style={{ color: 'var(--gray-text)' }}>We build the flows (CTAs, DMs, calendar booking) that turn passive engagement into real sales conversations.</p>
-                        </div>
-                    </div>
+                    {/* Removed 3-Pillar Approach as it is covered in Services/Positioning */}
 
                     <div className="founder-signature">
                         <h4 className="founder-name">Mayank Raj Singh</h4>

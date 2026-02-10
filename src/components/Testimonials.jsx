@@ -15,7 +15,6 @@ const testimonials = [
         image: "/porus.jpg",
         link: "https://www.instagram.com/porus_ai/"
     },
-
     {
         quote: "The team understood our vision perfectly. The content quality is top-notch and the results speak for themselves.",
         author: "@officialhemantbharti_",
@@ -27,9 +26,14 @@ const testimonials = [
 
 const Testimonials = () => {
     return (
-        <section className="testimonials">
+        <section id="testimonials" className="testimonials">
             <div className="container">
-                <h2 className="section-title">Trusted by Growing Businesses</h2>
+                <div className="section-header">
+                    <h2 className="section-title">Built & Battle-Tested</h2>
+                    <p className="section-subtitle" style={{ maxWidth: '800px', margin: '0 auto 40px', fontSize: '1.2rem', color: 'var(--gray-text)' }}>
+                        "We didn't just learn this in a course. We built BrosContent using these exact systems. Every strategy we deploy for you has been tested on our own brand and refined with real capital."
+                    </p>
+                </div>
                 <div className="testimonials-grid">
                     {testimonials.map((t, index) => (
                         <div key={index} className="testimonial-card">

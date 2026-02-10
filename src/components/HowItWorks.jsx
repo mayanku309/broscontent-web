@@ -3,23 +3,23 @@ import './HowItWorks.css'
 const steps = [
     {
         number: '01',
-        title: 'Strategy & Positioning',
-        description: 'We align your personal brand with your business goals and define your ideal customer profile.'
+        title: 'Deep Dive & Strategy',
+        description: 'We audit your offer and audience to identify the "money angles" that drive the highest conversions.'
     },
     {
         number: '02',
-        title: 'Build the Content Engine',
-        description: 'We create and publish high-authority content that speaks directly to your target audience.'
+        title: 'System Deployment',
+        description: 'We build your content engine, visual identity, and rapid-testing protocols to validate messaging immediately.'
     },
     {
         number: '03',
-        title: 'Convert Attention to Calls',
-        description: 'We implement conversion systems to turn readers into leads and qualified booked meetings.'
+        title: 'Authority & Traction',
+        description: 'We launch high-impact content targeting your ICP to build immediate trust and separate you from the noise.'
     },
     {
         number: '04',
-        title: 'Optimize for Results',
-        description: 'We track revenue-focused metrics like booked calls and pipeline, optimizing for business growth.'
+        title: 'Scale & Convert',
+        description: 'We analyze data, double down on winning formats, and optimize backend funnels to turn attention into booked appointments.'
     }
 ]
 
@@ -28,8 +28,8 @@ const HowItWorks = () => {
         <section id="how-it-works" className="how-it-works">
             <div className="container">
                 <div className="section-header">
-                    <h2 className="section-title">How It Works</h2>
-                    <p className="section-subtitle">From positioning to pipeline in 4 steps.</p>
+                    <h2 className="section-title">From "Unknown" to "Unignorable"</h2>
+                    <p className="section-subtitle">A predictable process to build your content machine.</p>
                 </div>
 
                 <div className="steps-grid">

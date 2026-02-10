@@ -1,0 +1,42 @@
+.positioning {
+    padding: 80px 0;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.positioning-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.positioning-block h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.positioning-block p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--gray-text);
+}
+
+.positioning-block.solution p {
+    color: var(--black);
+    font-weight: 500;
+}
+
+.section-title-small.highlight {
+    color: var(--yellow);
+}
+
+@media (max-width: 768px) {
+    .positioning-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}

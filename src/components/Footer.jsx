@@ -1,13 +1,17 @@
 import './Footer.css'
+import Button from './Button'
 
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="container">
                 <div className="footer-content">
-                    <div className="footer-brand hidden-brand">
-                        <img src="/logo.png" alt="BrosContent" className="footer-logo-image" />
-                        <p className="footer-tagline">Building smarter systems for modern businesses.</p>
+                    <div className="footer-cta">
+                        <h2 className="footer-title">Ready to stop guessing and start growing?</h2>
+                        <p className="footer-subtitle">We only work with 5 new partners per month to ensure maximum attention. Secure your spot now.</p>
+                        <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }} onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20apply%20for%20a%20spot', '_blank')}>
+                            Apply for a Spot
+                        </Button>
                     </div>
 
                     <div className="footer-links">

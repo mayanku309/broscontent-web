@@ -12,8 +12,9 @@ const Navbar = () => {
                 <div className="nav-links">
                     <a href="#services">Services</a>
                     <a href="#how-it-works">Process</a>
-                    <a href="#use-cases">For Founders</a>
-                    <a href="#offers">Offers</a>
+                    <a href="#testimonials">Results</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#about">About</a>
                 </div>
 
                 <div className="nav-actions">
