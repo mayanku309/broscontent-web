@@ -52,17 +52,12 @@
     border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.testimonial-avatar-placeholder {
+.testimonial-avatar {
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    background: var(--light-yellow);
-    color: var(--yellow);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 1.2rem;
+    object-fit: cover;
+    border: 2px solid #f0f0f0;
 }
 
 .testimonial-author h4 {

@@ -48,9 +48,7 @@ const Testimonials = () => {
                                 <p className="testimonial-quote">"{t.quote}"</p>
                             </div>
                             <div className="testimonial-footer">
-                                <div className="testimonial-avatar-placeholder">
-                                    {t.author[0].toUpperCase().replace('@', '')}
-                                </div>
+                                <img src={t.image} alt={t.author} className="testimonial-avatar" />
                                 <div className="testimonial-author">
                                     {t.link ? (
                                         <a href={t.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '6px' }}>
