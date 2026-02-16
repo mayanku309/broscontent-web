@@ -22,6 +22,7 @@ const Footer = () => {
                     <div className="footer-links">
                         <div className="link-column">
                             <h4>Company</h4>
+                            <a href="/content-marketing-agency">Content Marketing Agency</a>
                             <a href="#about">Why Us</a>
                             <a href="#services">Services</a>
                             <a href="#how-it-works">Process</a>
