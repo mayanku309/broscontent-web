@@ -1,40 +1,60 @@
 .about {
-    background-color: var(--white);
     padding: 100px 0;
-    text-align: center;
+    background: var(--bg-secondary);
 }
 
 .about-container {
     max-width: 800px;
 }
 
+.about-content {
+    margin-top: -20px;
+}
+
+.about-text-block {
+    margin-bottom: 40px;
+}
+
+.about-lead {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 20px;
+}
+
 .about-text {
-    font-size: 1.25rem;
-    color: var(--gray-text);
+    font-size: 1.05rem;
+    color: var(--text-secondary);
     line-height: 1.8;
-    margin-bottom: var(--space-md);
+    margin-bottom: 16px;
+}
+
+.about-text strong {
+    color: var(--accent);
 }
 
 .founder-signature {
-    margin-top: var(--space-lg);
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
-    padding-top: var(--space-md);
-    display: inline-block;
-    padding-left: var(--space-lg);
-    padding-right: var(--space-lg);
+    padding-top: 32px;
+    border-top: 1px solid var(--border);
 }
 
 .founder-name {
-    font-size: 1.3rem;
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
     font-weight: 700;
-    color: var(--black);
-    margin-bottom: 4px;
+    color: var(--text-primary);
+    margin: 0;
 }
 
 .founder-title {
-    font-size: 0.95rem;
-    color: var(--yellow);
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
+    font-size: 0.85rem;
+    color: var(--accent);
+    margin: 4px 0 0;
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 64px 0;
+    }
 }

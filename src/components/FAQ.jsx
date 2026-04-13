@@ -3,24 +3,28 @@ import './FAQ.css'
 
 const faqData = [
     {
-        question: "Are you a new agency?",
-        answer: "Yes, and that is your biggest advantage. We aren't bloated with overhead or distracted by hundreds of clients. You get premium attention, faster execution, and a team that is hungry to prove itself."
+        question: "Is this only for dental clinics?",
+        answer: "Yes. We specialize exclusively in dental practices across India. This means our systems, templates, and automations are built specifically for how dental clinics operate — appointment scheduling, treatment follow-ups, review management, and patient reactivation. No generic marketing here."
     },
     {
-        question: "How quickly will I see results?",
-        answer: "We don't promise overnight magic. Content is an asset that builds. However, our systems are designed to start generating conversations in the first 30-45 days."
+        question: "How quickly will I see new patients?",
+        answer: "Most clinics see measurable results within 30-45 days. Google Business optimization and automated reminders show impact fastest. Content-driven leads build over 60-90 days as your online authority grows. We'll set realistic expectations during your free audit."
     },
     {
-        question: "What if it doesn't work?",
-        answer: "We work in 30-day sprints. We don't lock you into 12-month handcuffs. If we don't deliver value, you can leave. It's that simple. We fight to keep you every single month."
+        question: "What if I already have a website and social media?",
+        answer: "Great — we build on what you have. We'll audit your existing presence and plug in automations where they'll have the most impact. Most clinics already have the foundation; they just need the systems to convert visitors into booked patients."
     },
     {
-        question: "Who is this NOT for?",
-        answer: "If you want millions of fake views, cheap bot followers, or are looking for a 'get rich quick' scheme, we are not for you. We work with serious builders."
+        question: "How much does it cost?",
+        answer: "Our packages start at ₹15,000/month for basic automation and go up to ₹50,000/month for full-service (lead gen + content + AI automation). Every rupee is tied to measurable outcomes. Book a free audit and we'll recommend the right tier for your practice size."
     },
     {
-        question: "What is the investment?",
-        answer: "We are a premium specialized partner. Our packages are designed for businesses generating revenue who are ready to scale. Book a call to discuss the best tier for your goals."
+        question: "Do I need to be tech-savvy?",
+        answer: "Not at all. We handle all the technical setup. You and your staff just need WhatsApp and a phone. We'll train your receptionist in one 30-minute session. If they can send a text message, they can use our system."
+    },
+    {
+        question: "What makes you different from other marketing agencies?",
+        answer: "Three things: (1) We ONLY work with dental clinics, so we understand your business deeply. (2) We use AI automation, not just 'posting content and hoping.' (3) We track booked appointments, not likes and views. Your ROI is measured in patients, not impressions."
     }
 ]
 
@@ -34,7 +38,10 @@ const FAQ = () => {
     return (
         <section id="faq" className="faq">
             <div className="container">
-                <h2 className="section-title">Frequently Asked Questions</h2>
+                <div className="section-header">
+                    <div className="section-label"><span className="label-line"></span>FAQ</div>
+                    <h2 className="section-title">Questions Dentists Ask Us</h2>
+                </div>
                 <div className="faq-grid">
                     {faqData.map((item, index) => (
                         <div key={index} className={`faq-item ${activeIndex === index ? 'active' : ''}`} onClick={() => toggleFAQ(index)}>

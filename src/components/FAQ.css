@@ -1,6 +1,6 @@
 .faq {
-    padding: 80px 0;
-    background-color: var(--white-bg);
+    padding: 100px 0;
+    background: var(--bg-primary);
 }
 
 .faq-grid {
@@ -8,57 +8,72 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 12px;
 }
 
 .faq-item {
-    background: var(--white);
-    border: 1px solid var(--border-color, #e0e0e0);
-    border-radius: 12px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
     overflow: hidden;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .faq-item:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-color: var(--border-hover);
+}
+
+.faq-item.active {
+    border-color: var(--border-accent);
 }
 
 .faq-question {
-    padding: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 24px;
+    gap: 16px;
 }
 
 .faq-question h3 {
-    font-size: 1.1rem;
+    font-family: var(--font-heading);
+    font-size: 1rem;
     font-weight: 600;
+    color: var(--text-primary);
     margin: 0;
-    color: var(--black);
 }
 
 .faq-icon {
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: var(--gray-text);
+    font-size: 1.3rem;
+    color: var(--accent);
+    flex-shrink: 0;
+    font-weight: 300;
+    width: 24px;
+    text-align: center;
 }
 
 .faq-answer {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease-out, padding 0.3s ease;
+    transition: max-height 0.35s ease, padding 0.35s ease;
     padding: 0 24px;
 }
 
 .faq-item.active .faq-answer {
-    max-height: 200px;
-    /* Adjust as needed */
-    padding-bottom: 24px;
+    max-height: 300px;
+    padding: 0 24px 20px;
 }
 
 .faq-answer p {
-    color: var(--gray-text);
-    line-height: 1.6;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
     margin: 0;
+}
+
+@media (max-width: 768px) {
+    .faq {
+        padding: 64px 0;
+    }
 }

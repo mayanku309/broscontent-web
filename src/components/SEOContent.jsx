@@ -1,25 +1,61 @@
-import './Positioning.css' // Reusing positioning styles for consistency
-
 const SEOContent = () => {
     return (
-        <section className="positioning" style={{ padding: '60px 0', backgroundColor: '#fafafa' }}>
-            <div className="container">
-                <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-                    <h2 style={{ fontSize: '1.8rem', marginBottom: '24px' }}>What is a Content Marketing Agency?</h2>
-                    <p style={{ fontSize: '1.1rem', lineHeight: '1.6', color: 'var(--gray-text)', marginBottom: '32px' }}>
-                        A <strong>content marketing agency</strong> doesn't just post on social media; we build systems that drive revenue. At BrosContent, our approach goes beyond vanity metrics. We focus on <strong>high-converting content systems</strong> that position you as an authority and turn strangers into qualified leads.
-                    </p>
+        <section className="seo-content" style={{
+            padding: '80px 0',
+            background: 'var(--bg-secondary)',
+            borderTop: '1px solid var(--border)',
+            borderBottom: '1px solid var(--border)'
+        }}>
+            <div className="container" style={{ maxWidth: '800px' }}>
+                <h2 style={{
+                    fontFamily: 'var(--font-heading)',
+                    fontSize: '1.8rem',
+                    fontWeight: 800,
+                    color: 'var(--text-primary)',
+                    marginBottom: '24px',
+                    letterSpacing: '-0.03em'
+                }}>
+                    AI-Powered Marketing for Dental Clinics in India
+                </h2>
+                <p style={{ fontSize: '1.05rem', lineHeight: 1.75, color: 'var(--text-secondary)', marginBottom: '28px' }}>
+                    Finding the right <strong style={{ color: 'var(--text-primary)' }}>dental clinic marketing solution</strong> in India is harder than it should be.
+                    Most agencies offer generic social media management that doesn't understand the dental industry.
+                    At BrosContent, we build <strong style={{ color: 'var(--text-primary)' }}>AI-powered lead generation and automation systems</strong> designed
+                    specifically for dentists — from single-chair practices to multi-location clinics.
+                </p>
 
-                    <h3 style={{ fontSize: '1.4rem', marginBottom: '16px' }}>Our Content Marketing Strategy</h3>
-                    <p style={{ fontSize: '1.1rem', lineHeight: '1.6', color: 'var(--gray-text)', marginBottom: '32px' }}>
-                        Most brands fail because they lack a cohesive <strong>content marketing strategy</strong>. They treat content as an expense, not an asset. our framework ensures every piece of content has a job: to educate, build trust, or convert. This is the difference between "getting views" and building a <strong>scalable revenue engine</strong>.
-                    </p>
+                <h3 style={{
+                    fontFamily: 'var(--font-heading)',
+                    fontSize: '1.3rem',
+                    fontWeight: 700,
+                    color: 'var(--text-primary)',
+                    marginBottom: '16px'
+                }}>
+                    Dentist Lead Generation That Actually Works
+                </h3>
+                <p style={{ fontSize: '1.05rem', lineHeight: 1.75, color: 'var(--text-secondary)', marginBottom: '28px' }}>
+                    Our <strong style={{ color: 'var(--text-primary)' }}>dentist lead generation</strong> system combines
+                    Google Business Profile optimization, local SEO, social media content, and WhatsApp automation
+                    to create a complete patient acquisition engine. Unlike traditional advertising, our systems
+                    compound over time — meaning every month brings more patients at a lower cost per acquisition.
+                </p>
 
-                    <h3 style={{ fontSize: '1.4rem', marginBottom: '16px' }}>Why Choose a Performance-Driven Approach?</h3>
-                    <p style={{ fontSize: '1.1rem', lineHeight: '1.6', color: 'var(--gray-text)' }}>
-                        We replace guesswork with data. By tracking buyer intent and focusing on <strong>high-converting content</strong>, we help founders and B2B companies stop wasting time on the "hamster wheel" and start seeing predictable ROI from their content efforts.
-                    </p>
-                </div>
+                <h3 style={{
+                    fontFamily: 'var(--font-heading)',
+                    fontSize: '1.3rem',
+                    fontWeight: 700,
+                    color: 'var(--text-primary)',
+                    marginBottom: '16px'
+                }}>
+                    Why AI Automation Matters for Your Practice
+                </h3>
+                <p style={{ fontSize: '1.05rem', lineHeight: 1.75, color: 'var(--text-secondary)' }}>
+                    Indian dental clinics lose an estimated ₹2-5 Lakh monthly to no-shows, missed follow-ups, and
+                    dormant patients. Our <strong style={{ color: 'var(--text-primary)' }}>AI automation for dental clinics</strong> eliminates
+                    these revenue leaks with automated appointment reminders, post-treatment follow-ups,
+                    review collection, and patient reactivation campaigns — all running 24/7 on WhatsApp
+                    and SMS without any staff involvement.
+                </p>
             </div>
         </section>
     )

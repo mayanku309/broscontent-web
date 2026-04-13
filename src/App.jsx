@@ -3,8 +3,8 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import ContentMarketingAgency from './pages/ContentMarketingAgency'
-import './App.css'
 import ScrollToTop from './components/ScrollToTop'
+import './App.css'
 
 function App() {
     return (

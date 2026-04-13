@@ -5,32 +5,35 @@ const Positioning = () => {
         <section className="positioning">
             <div className="container">
                 <div className="section-header" style={{ marginBottom: '60px' }}>
-                    <h2 className="section-title">Growth Built on Truth.</h2>
-                    <p className="section-subtitle" style={{ maxWidth: '600px', margin: '0 auto', fontSize: '1.2rem', color: 'var(--gray-text)' }}>
-                        Most founders are stuck playing a game they can't win. Here is the shift.
+                    <div className="section-label"><span className="label-line"></span>The Problem</div>
+                    <h2 className="section-title">Your Clinic Is Losing Patients Every Day.</h2>
+                    <p className="section-subtitle" style={{ maxWidth: '650px', margin: '12px auto 0' }}>
+                        Most dental practices in India struggle with the same broken cycle. Here's the shift we create.
                     </p>
                 </div>
                 <div className="positioning-content">
                     <div className="positioning-block problem">
                         <h3 className="positioning-label">The Reality</h3>
                         <div className="positioning-text">
-                            <p className="highlight-text">The "Content Hamster Wheel"</p>
+                            <p className="highlight-text">The "Empty Chair" Problem</p>
                             <ul>
-                                <li>You post randomly, hoping for a "viral" hit that never converts.</li>
-                                <li>You hire cheap agencies who focus on vanity metrics (likes/views).</li>
-                                <li><strong>Result:</strong> You have attention, but zero predictable pipeline.</li>
+                                <li>Patients search "dentist near me" — and book with your competitor who shows up first.</li>
+                                <li>Your staff wastes 2+ hours daily calling patients for appointment confirmations.</li>
+                                <li>You have no system to bring back patients who haven't visited in 6+ months.</li>
+                                <li><strong>Result:</strong> You're leaving ₹2-5 Lakh/month on the table in missed appointments alone.</li>
                             </ul>
                         </div>
                     </div>
                     <div className="positioning-divider"></div>
                     <div className="positioning-block solution">
-                        <h3 className="positioning-label highlight">Our Promise</h3>
+                        <h3 className="positioning-label highlight">Our Solution</h3>
                         <div className="positioning-text">
-                            <p className="highlight-text">A Predictable Revenue Engine</p>
+                            <p className="highlight-text">AI-Powered Practice Growth</p>
                             <ul>
-                                <li>We build systems that turn your expertise into authority assets.</li>
-                                <li>Content designed for <strong>buyer intent</strong>, not just algorithm attention.</li>
-                                <li><strong>Result:</strong> Qualified inbound leads who are ready to buy.</li>
+                                <li>Show up #1 on Google when patients search for dental services in your area.</li>
+                                <li>AI sends appointment reminders, follow-ups, and review requests — automatically.</li>
+                                <li>Dormant patients get reactivated with personalized WhatsApp campaigns.</li>
+                                <li><strong>Result:</strong> Full appointment books, zero staff burnout, and predictable growth.</li>
                             </ul>
                         </div>
                     </div>

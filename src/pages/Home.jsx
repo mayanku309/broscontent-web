@@ -6,6 +6,8 @@ import Testimonials from '../components/Testimonials'
 import About from '../components/About'
 import FAQ from '../components/FAQ'
 import SEOContent from '../components/SEOContent'
+import AuditForm from '../components/AuditForm'
+import ExitIntent from '../components/ExitIntent'
 
 const Home = () => {
     return (
@@ -16,8 +18,10 @@ const Home = () => {
             <Services />
             <HowItWorks />
             <Testimonials />
+            <AuditForm />
             <About />
             <FAQ />
+            <ExitIntent />
         </>
     )
 }

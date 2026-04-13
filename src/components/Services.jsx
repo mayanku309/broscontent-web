@@ -3,56 +3,56 @@ import Button from './Button'
 
 const servicesData = [
     {
-        title: 'Founder Authority System',
-        target: 'For founders & creators who want buyers to trust them before the first call.',
-        description: 'We position you clearly in your market so the right audience understands why you’re worth paying before they ever DM or book a call.',
+        title: 'Patient Lead Generation',
+        target: 'For clinics losing new patients to competitors with better online presence.',
+        description: 'We build automated systems that capture patient inquiries from Google, Instagram, and WhatsApp — and route them directly to your front desk. No more missed leads.',
         solves: [
-            'People see your content but don’t "get" what you actually do',
-            'Leads feel cold, low-intent, or price-sensitive',
-            'You’re competing instead of being chosen'
+            'Your clinic doesn\'t show up when patients search "dentist near me"',
+            'Leads come in but nobody follows up fast enough',
+            'You\'re spending on ads but can\'t track which ones bring real patients'
         ],
         included: [
-            'Sharpens your positioning and message',
-            'Aligns your content with buyer psychology',
-            'Signals authority without hype or flexing'
+            'Google Business Profile optimization & local SEO',
+            'Automated lead capture from all channels',
+            'Instant WhatsApp auto-reply for new inquiries'
         ],
-        outcome: 'Stronger perception, warmer inbound conversations, and less convincing on calls.',
+        outcome: 'A steady stream of new patient inquiries landing directly in your booking system — on autopilot.',
         icon: '🎯'
     },
     {
-        title: 'Inbound Lead Engine',
-        target: 'For businesses that want consistent conversations — not random spikes.',
-        description: 'We design a structured content engine that attracts qualified buyers and turns attention into inbound leads over time.',
+        title: 'Dental Content Creation',
+        target: 'For dentists who know they should post online but don\'t have the time.',
+        description: 'We create scroll-stopping content that educates patients and builds trust — before they ever walk through your door. Designed specifically for dental practices.',
         solves: [
-            'You’re getting views but no DMs',
-            'Inbound leads are inconsistent',
-            'Content feels busy but not effective'
+            'You haven\'t posted on Instagram in months',
+            'Your content looks generic and doesn\'t reflect your expertise',
+            'Patients choose competitors who "look more professional" online'
         ],
         included: [
-            'Builds content around demand, not trends',
-            'Connects content → CTA → conversation',
-            'Optimizes for responses, not likes'
+            'Monthly content calendar with dental-specific topics',
+            'Before/after case showcases (HIPAA-aware)',
+            'Educational reels, carousels, and patient testimonials'
         ],
-        outcome: 'Predictable inbound conversations with people who already want what you offer.',
-        icon: '🚀'
+        outcome: 'A professional online presence that makes patients trust you before they book — and refer you to friends.',
+        icon: '📸'
     },
     {
-        title: 'Content Operations (End-to-End)',
-        target: 'For teams who want execution handled — properly.',
-        description: 'We run your entire content operation with a conversion-first lens, so you’re not managing freelancers, workflows, or posting chaos.',
+        title: 'AI Practice Automation',
+        target: 'For clinics wasting staff hours on appointment reminders and follow-ups.',
+        description: 'We deploy AI-powered automations that handle appointment reminders, follow-up messages, review collection, and reactivation of dormant patients — all without lifting a finger.',
         solves: [
-            'Content management drains your time',
-            'Execution is inconsistent',
-            'Multiple people are involved, but nothing compounds'
+            'Staff spends hours calling patients for appointment confirmations',
+            'No-shows cost you ₹5,000+ per empty chair per day',
+            'You forget to follow up with patients who need treatment plans'
         ],
         included: [
-            'Handles planning, execution, and iteration',
-            'Maintains a consistent publishing rhythm',
-            'Improves performance based on responses, not guesses'
+            'Automated WhatsApp/SMS appointment reminders',
+            'Post-visit review request sequences',
+            'Dormant patient reactivation campaigns',
         ],
-        note: 'Note: Selective onboarding. We work with a limited number of partners to maintain quality.',
-        outcome: 'A reliable content operation that feeds your pipeline without constant oversight.',
-        icon: '💎'
+        note: 'Limited onboarding slots. We work with only 10 clinics per city to maintain quality.',
+        outcome: 'An AI receptionist that never forgets, never takes leave, and works 24/7 to keep your chairs full.',
+        icon: '🤖'
     }
 ]
 
@@ -61,9 +61,13 @@ const Services = () => {
         <section id="services" className="services">
             <div className="container">
                 <div className="services-header">
-                    <h2 className="section-title">Services built for pipeline — not posting.</h2>
-                    <p className="section-subtitle">
-                        Each system is designed to turn your expertise into consistent inbound demand. No ads. No vanity metrics. Just content that compounds.
+                    <div className="section-label">
+                        <span className="label-line"></span>
+                        What We Build
+                    </div>
+                    <h2 className="section-title">Three Systems. One Full Practice.</h2>
+                    <p className="section-subtitle" style={{ maxWidth: '650px', margin: '12px auto 0' }}>
+                        Each system is designed to solve a specific problem dental clinics face — lead generation, online presence, and operational efficiency.
                     </p>
                 </div>
 
@@ -104,16 +108,16 @@ const Services = () => {
                 </div>
 
                 <div className="services-cta-container">
-                    <p className="services-transition">Not sure which system fits your stage? We’ll map it out in a short audit.</p>
+                    <p className="services-transition">Not sure which system your practice needs? We'll diagnose it in a free audit.</p>
                     <div className="services-cta-box">
-                        <h3>Book a Strategy Audit</h3>
-                        <p>We’ll review your current content, identify leaks, and outline a clear path forward.</p>
+                        <h3>Book a Free Practice Audit</h3>
+                        <p>We'll review your clinic's online presence, patient flow, and automation gaps — then give you a clear action plan.</p>
                         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px' }}>
-                            <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.2rem', width: '100%', maxWidth: '300px' }} onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20book%20a%20strategy%20audit', '_blank')}>
-                                Book a Strategy Audit
+                            <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.1rem', width: '100%', maxWidth: '300px' }} onClick={() => document.getElementById('audit-form').scrollIntoView({ behavior: 'smooth' })}>
+                                Get Your Free Audit
                             </Button>
-                            <p style={{ fontSize: '0.9rem', color: 'var(--gray-text)', margin: 0, fontStyle: 'italic' }}>
-                                100% free. No obligation to hire us.
+                            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', margin: 0, fontStyle: 'italic' }}>
+                                100% free. No obligation. Takes 15 minutes.
                             </p>
                         </div>
                     </div>

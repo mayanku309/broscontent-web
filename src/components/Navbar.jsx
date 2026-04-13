@@ -1,39 +1,56 @@
 import './Navbar.css'
 import Button from './Button'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const [scrolled, setScrolled] = useState(false)
 
-    const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen)
+    useEffect(() => {
+        const handleScroll = () => setScrolled(window.scrollY > 50)
+        window.addEventListener('scroll', handleScroll)
+        return () => window.removeEventListener('scroll', handleScroll)
+    }, [])
+
+    const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
+
+    const scrollToSection = (id) => {
+        setIsMenuOpen(false)
+        const el = document.getElementById(id)
+        if (el) el.scrollIntoView({ behavior: 'smooth' })
     }
 
     return (
-        <nav className="navbar">
+        <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
             <div className="container navbar-content">
-                <a href="/" className="logo">
-                    <img src="/logo.png" alt="BrosContent" className="logo-image" />
-                </a>
+                <Link to="/" className="logo" onClick={() => setIsMenuOpen(false)}>
+                    <div className="logo-icon">B</div>
+                    <span className="logo-text">Bros<span className="logo-accent">Content</span></span>
+                </Link>
 
                 <div className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
-                    <a href="/content-marketing-agency" className="nav-item" onClick={() => setIsMenuOpen(false)}>Content Marketing Agency</a>
-                    <a href="/#services" className="nav-item" onClick={() => setIsMenuOpen(false)}>Systems</a>
-                    <a href="/#how-it-works" className="nav-item" onClick={() => setIsMenuOpen(false)}>Process</a>
-                    <a href="/#testimonials" className="nav-item" onClick={() => setIsMenuOpen(false)}>Results</a>
-                    <a href="/#faq" className="nav-item" onClick={() => setIsMenuOpen(false)}>FAQ</a>
-                    <a href="/#about" className="nav-item" onClick={() => setIsMenuOpen(false)}>About</a>
+                    <button className="nav-item" onClick={() => scrollToSection('services')}>Services</button>
+                    <button className="nav-item" onClick={() => scrollToSection('how-it-works')}>Process</button>
+                    <button className="nav-item" onClick={() => scrollToSection('testimonials')}>Results</button>
+                    <button className="nav-item" onClick={() => scrollToSection('faq')}>FAQ</button>
+                    <button className="nav-item" onClick={() => scrollToSection('about')}>About</button>
+                    <div className="nav-mobile-cta">
+                        <Button variant="primary" onClick={() => scrollToSection('audit-form')}>
+                            Free Practice Audit
+                        </Button>
+                    </div>
                 </div>
 
                 <div className="hamburger" onClick={toggleMenu}>
-                    <span className="bar"></span>
-                    <span className="bar"></span>
-                    <span className="bar"></span>
+                    <span className={`bar ${isMenuOpen ? 'open' : ''}`}></span>
+                    <span className={`bar ${isMenuOpen ? 'open' : ''}`}></span>
+                    <span className={`bar ${isMenuOpen ? 'open' : ''}`}></span>
                 </div>
 
                 <div className="nav-actions">
-                    <Button variant="primary" style={{ padding: '10px 20px', fontSize: '0.9rem' }} onClick={() => window.open('https://wa.me/17052029483', '_blank')}>
-                        Get Audit
+                    <Button variant="primary" style={{ padding: '10px 24px', fontSize: '0.875rem' }} onClick={() => scrollToSection('audit-form')}>
+                        Free Practice Audit
                     </Button>
                 </div>
             </div>

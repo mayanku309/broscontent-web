@@ -5,104 +5,119 @@ import '../components/HowItWorks.css'
 import Button from '../components/Button'
 
 const ContentMarketingAgency = () => {
+    const scrollToAudit = () => {
+        window.location.href = '/#audit-form'
+    }
+
     return (
         <div className="content-marketing-agency-page">
             {/* Hero Section */}
-            <section className="hero" style={{ padding: '120px 0 80px' }}>
+            <section className="hero" style={{ padding: '160px 0 100px' }}>
+                <div className="hero-glow hero-glow--left"></div>
                 <div className="container hero-content">
                     <div className="hero-trust-badge">
                         <span className="trust-indicator"></span>
-                        Performance-Driven Content Marketing Agency
+                        AI-Powered Dental Marketing Agency
                     </div>
                     <h1 className="hero-title">
-                        A Content Marketing Agency That Actually Drives Revenue.
+                        The Only Marketing Agency Built<br />
+                        <span className="hero-highlight">Exclusively for Dentists</span>
                     </h1>
                     <p className="hero-subtitle">
-                        Stop treating content like a guessing game. We build high-converting content marketing systems that turn attention into qualified pipeline for B2B brands and founders.
+                        Stop wasting money on generic agencies that don't understand dental practices.
+                        We build AI-powered lead generation, content creation, and appointment automation
+                        systems that fill your chairs with paying patients.
                     </p>
                     <div className="hero-actions">
-                        <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }} onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20book%20a%20strategy%20audit', '_blank')}>
-                            Book a Strategy Audit
+                        <Button variant="primary" style={{ padding: '16px 36px', fontSize: '1.05rem' }} onClick={scrollToAudit}>
+                            Get Your Free Practice Audit
                         </Button>
                     </div>
                 </div>
             </section>
 
-            {/* Introduction / Problem */}
-            <section className="positioning" style={{ padding: '80px 0', backgroundColor: '#fff' }}>
+            {/* Problem */}
+            <section className="positioning" style={{ padding: '80px 0' }}>
                 <div className="container">
                     <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-                        <h2 className="section-title" style={{ marginBottom: '40px' }}>Most Content Marketing Agencies Fail You.</h2>
-                        <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--gray-text)', marginBottom: '32px' }}>
-                            They focus on "brand awareness," "impressions," and "viral reach." But you can't deposit views in the bank. As a performance-driven <strong>content marketing agency</strong>, we focus on one metric: <strong>Revenue.</strong>
+                        <h2 className="section-title" style={{ marginBottom: '40px' }}>Most Dental Marketing Agencies Fail You.</h2>
+                        <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: 'var(--text-secondary)', marginBottom: '28px' }}>
+                            They focus on "brand awareness," "impressions," and "followers." But you can't treat patients with Instagram likes.
+                            As a performance-driven <strong style={{ color: 'var(--accent)' }}>dental marketing agency</strong>, we focus on one metric: <strong style={{ color: 'var(--accent)' }}>booked appointments.</strong>
                         </p>
-                        <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--gray-text)' }}>
-                            We don't just create noise. We build strategic assets that educate your buyers, handle objections before the sales call, and position you as the only logical choice in your market.
+                        <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: 'var(--text-secondary)' }}>
+                            We don't just create pretty posts. We build AI-powered systems that capture patient leads from Google,
+                            send automated appointment reminders via WhatsApp, and reactivate dormant patients who haven't visited in months
+                            — turning your online presence into a predictable patient acquisition engine.
                         </p>
                     </div>
                 </div>
             </section>
 
-            {/* Services / Approach */}
-            <section className="services" style={{ padding: '80px 0', backgroundColor: '#fafafa' }}>
+            {/* Framework */}
+            <section style={{ padding: '80px 0', background: 'var(--bg-secondary)' }}>
                 <div className="container">
-                    <h2 className="section-title" style={{ textAlign: 'center', marginBottom: '60px' }}>Our Content Marketing Framework</h2>
+                    <h2 className="section-title" style={{ textAlign: 'center', marginBottom: '60px' }}>Our Dental Growth Framework</h2>
 
-                    <div className="services-grid" style={{ gridTemplateColumns: '1fr', maxWidth: '800px', margin: '0 auto', gap: '40px' }}>
-                        {/* Phase 1 */}
+                    <div className="services-grid" style={{ gridTemplateColumns: '1fr', maxWidth: '800px', margin: '0 auto', gap: '32px' }}>
                         <div className="service-card">
-                            <h3 className="service-title" style={{ fontSize: '1.5rem', marginBottom: '16px' }}>1. Content Marketing Strategy & Positioning</h3>
+                            <h3 className="service-title" style={{ fontSize: '1.4rem', marginBottom: '14px' }}>1. Patient Lead Generation & Local SEO</h3>
                             <p className="service-description">
-                                We start by auditing your offer and market. We identify the "money angles"—the specific topics and pain points that your highest-value clients care about. We don't guess; we engineer a <strong>content marketing strategy</strong> based on buyer intent.
+                                We optimize your Google Business Profile, build local SEO authority, and set up automated lead capture
+                                so that when patients search "dentist near me" in your city, <strong>you</strong> show up first — and they book instantly.
                             </p>
                         </div>
 
-                        {/* Phase 2 */}
                         <div className="service-card">
-                            <h3 className="service-title" style={{ fontSize: '1.5rem', marginBottom: '16px' }}>2. High-Converting Content Execution</h3>
+                            <h3 className="service-title" style={{ fontSize: '1.4rem', marginBottom: '14px' }}>2. Trust-Building Content Creation</h3>
                             <p className="service-description">
-                                Our team handles the entire production workflow. From LinkedIn thought leadership to SEO-driven articles (if applicable) and visual assets. We create <strong>high-converting content</strong> that stops the scroll and starts the conversation.
+                                Our team creates dental-specific content — before/after showcases, educational reels, patient testimonials,
+                                and treatment explainers. Content that makes patients trust you before they walk through the door.
                             </p>
                         </div>
 
-                        {/* Phase 3 */}
                         <div className="service-card">
-                            <h3 className="service-title" style={{ fontSize: '1.5rem', marginBottom: '16px' }}>3. Distribution & Revenue Attribution</h3>
+                            <h3 className="service-title" style={{ fontSize: '1.4rem', marginBottom: '14px' }}>3. AI Automation & Revenue Recovery</h3>
                             <p className="service-description">
-                                Content is useless if the right people don't see it. We distribute your content where your buyers hang out and track the results. We optimize based on what drives booked calls, not just likes.
+                                We deploy AI-powered WhatsApp reminders that cut no-shows by 70%, automated review collection that builds
+                                your reputation, and dormant patient reactivation campaigns that recover lost revenue from your existing database.
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* SEO Content Section */}
-            <section className="how-it-works" style={{ padding: '80px 0', backgroundColor: '#fff' }}>
+            {/* Why BrosContent */}
+            <section style={{ padding: '80px 0', background: 'var(--bg-primary)' }}>
                 <div className="container">
                     <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-                        <h2 className="section-title" style={{ fontSize: '2rem', marginBottom: '40px' }}>Why Work With BrosContent?</h2>
+                        <h2 className="section-title" style={{ fontSize: '2rem', marginBottom: '40px' }}>Why Indian Dentists Choose BrosContent</h2>
 
-                        <div style={{ marginBottom: '40px' }}>
-                            <h3 style={{ fontSize: '1.4rem', marginBottom: '16px' }}>We Are More Than Just Writers</h3>
-                            <p style={{ fontSize: '1.1rem', lineHeight: '1.6', color: 'var(--gray-text)' }}>
-                                Traditional agencies employ junior copywriters who don't understand business. We are founders and growth marketers. We understand unit economics, sales cycles, and positioning. Our <strong>content marketing agency</strong> acts as a strategic partner to your leadership team.
+                        <div style={{ marginBottom: '36px' }}>
+                            <h3 style={{ fontSize: '1.3rem', marginBottom: '14px', fontFamily: 'var(--font-heading)', fontWeight: 700, color: 'var(--text-primary)' }}>We Only Work With Dental Clinics</h3>
+                            <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: 'var(--text-secondary)' }}>
+                                Generic agencies treat you like "just another client." We understand appointment scheduling,
+                                treatment plan follow-ups, patient retention cycles, and the competitive dynamics of dental markets
+                                in Indian cities. Our <strong style={{ color: 'var(--accent)' }}>dental marketing systems</strong> are built from the ground up for your industry.
                             </p>
                         </div>
 
-                        <div style={{ marginBottom: '40px' }}>
-                            <h3 style={{ fontSize: '1.4rem', marginBottom: '16px' }}>Systems Over Random Acts of Content</h3>
-                            <p style={{ fontSize: '1.1rem', lineHeight: '1.6', color: 'var(--gray-text)' }}>
-                                We build scalable <strong>content systems</strong>. This means you get a predictable output of high-quality assets every week, without having to manage freelancers or chase deadlines. We handle the operations; you reap the rewards (authority & leads).
+                        <div style={{ marginBottom: '36px' }}>
+                            <h3 style={{ fontSize: '1.3rem', marginBottom: '14px', fontFamily: 'var(--font-heading)', fontWeight: 700, color: 'var(--text-primary)' }}>AI Automation, Not Manual Labor</h3>
+                            <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: 'var(--text-secondary)' }}>
+                                Your staff shouldn't spend hours calling patients for confirmations.
+                                Our AI systems handle appointment reminders, follow-ups, review requests, and patient reactivation
+                                — running 24/7 on WhatsApp with zero staff involvement.
                             </p>
                         </div>
                     </div>
 
-                    <div style={{ marginTop: '60px', textAlign: 'center' }}>
-                        <h3 style={{ marginBottom: '24px' }}>Ready to Scale Your Revenue?</h3>
-                        <Button variant="primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }} onClick={() => window.open('https://wa.me/17052029483?text=I%20want%20to%20book%20a%20strategy%20audit', '_blank')}>
-                            Book a Strategy Audit
+                    <div style={{ marginTop: '48px', textAlign: 'center' }}>
+                        <h3 style={{ marginBottom: '20px', fontFamily: 'var(--font-heading)', fontWeight: 700, color: 'var(--text-primary)' }}>Ready to Fill Your Appointment Books?</h3>
+                        <Button variant="primary" style={{ padding: '16px 36px', fontSize: '1.05rem' }} onClick={scrollToAudit}>
+                            Get Your Free Practice Audit
                         </Button>
-                        <p style={{ fontSize: '0.9rem', color: 'var(--gray-text)', marginTop: '12px', fontStyle: 'italic' }}>
+                        <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '12px', fontStyle: 'italic' }}>
                             100% free. No obligation.
                         </p>
                     </div>
