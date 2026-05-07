@@ -2,6 +2,7 @@
   "redirects": [
     {
       "source": "/(.*)",
+      "has": [{ "type": "host", "value": "broscontent.in" }],
       "destination": "https://www.broscontent.in/$1",
       "permanent": true
     }
