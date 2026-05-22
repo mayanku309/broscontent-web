@@ -1,5 +1,6 @@
 import './Services.css'
 import Button from './Button'
+import { Link } from 'react-router-dom'
 
 const servicesData = [
     {
@@ -17,7 +18,8 @@ const servicesData = [
             'Instant WhatsApp auto-reply for new inquiries'
         ],
         outcome: 'A steady stream of new patient inquiries landing directly in your booking system — on autopilot.',
-        icon: '🎯'
+        icon: '🎯',
+        link: '/services/ai-lead-generation'
     },
     {
         title: 'Dental Content Creation',
@@ -34,7 +36,8 @@ const servicesData = [
             'Educational reels, carousels, and patient testimonials'
         ],
         outcome: 'A professional online presence that makes patients trust you before they book — and refer you to friends.',
-        icon: '📸'
+        icon: '📸',
+        link: '/services/content-creation'
     },
     {
         title: 'AI Practice Automation',
@@ -52,7 +55,8 @@ const servicesData = [
         ],
         note: 'Limited onboarding slots. We work with only 10 clinics per city to maintain quality.',
         outcome: 'An AI receptionist that never forgets, never takes leave, and works 24/7 to keep your chairs full.',
-        icon: '🤖'
+        icon: '🤖',
+        link: '/services/whatsapp-automation'
     }
 ]
 
@@ -103,6 +107,10 @@ const Services = () => {
                                 <h4>Outcome</h4>
                                 <p>{service.outcome}</p>
                             </div>
+
+                            <Link to={service.link} style={{ display: 'inline-block', marginTop: '16px', color: 'var(--accent)', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none' }}>
+                                Learn more →
+                            </Link>
                         </div>
                     ))}
                 </div>

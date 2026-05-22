@@ -1,11 +1,12 @@
 import './Navbar.css'
 import Button from './Button'
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     const [scrolled, setScrolled] = useState(false)
+    const location = useLocation()
 
     useEffect(() => {
         const handleScroll = () => setScrolled(window.scrollY > 50)
@@ -17,8 +18,12 @@ const Navbar = () => {
 
     const scrollToSection = (id) => {
         setIsMenuOpen(false)
-        const el = document.getElementById(id)
-        if (el) el.scrollIntoView({ behavior: 'smooth' })
+        if (location.pathname === '/') {
+            const el = document.getElementById(id)
+            if (el) el.scrollIntoView({ behavior: 'smooth' })
+        } else {
+            window.location.href = `/#${id}`
+        }
     }
 
     return (
@@ -34,6 +39,7 @@ const Navbar = () => {
                     <button className="nav-item" onClick={() => scrollToSection('how-it-works')}>Process</button>
                     <button className="nav-item" onClick={() => scrollToSection('testimonials')}>Results</button>
                     <button className="nav-item" onClick={() => scrollToSection('faq')}>FAQ</button>
+                    <Link className="nav-item" to="/blog" onClick={() => setIsMenuOpen(false)}>Blog</Link>
                     <button className="nav-item" onClick={() => scrollToSection('about')}>About</button>
                     <div className="nav-mobile-cta">
                         <Button variant="primary" onClick={() => scrollToSection('audit-form')}>
